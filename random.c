@@ -1,2 +1,7 @@
-//this is a new file 
+#include <stdlib.h>
+
+char randchar()
+{
+  return 'A' + rand() % 26;
+}
 
